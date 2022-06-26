@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  width: 500px;
+  height: 500px;
+  background-color: #eaeaea;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #fff;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
